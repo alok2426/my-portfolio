@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="description"
+    content="Alok Pal — Data Analyst and Full-Stack Dashboard Developer. Portfolio showcasing analytics, automation, APIs and database projects." />
+  <title>Alok Pal | Data Analyst & Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home">ALOK PAL<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> DATA ANALYST · FULL-STACK DASHBOARD DEVELOPER</p>
+          <h1>Hi, I’m <span>Alok Pal.</span><br> I turn data into<br class="desktop-break"> useful decisions.</h1>
+          <p class="hero-text">I work across data processing, databases, APIs and interactive dashboards — building
+            practical solutions that help teams understand and manage their data.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#projects">Explore my work <span>↗</span></a>
+            <a class="text-link" href="#contact">Get in touch <span>→</span></a>
+          </div>
+        </div>
+        <div class="hero-visual hero-show" aria-label="Preview of my dashboard projects">
+          <div class="visual-top"><span class="window-dots"><i></i><i></i><i></i></span><span id="heroCap">CES
+              REGULATORY DASHBOARD</span><span class="live-tag">REAL PROJECTS</span></div>
+          <div class="hs-body">
+            <div class="hs-stage" id="heroStage" title="View my projects"></div>
+            <div class="hs-dots" id="heroDots"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<!-- from here  -->
+
+    <section class="section about-section about-skills" id="about">
+      <div class="container about-skills-grid">
+        <div class="about-col">
+          <p class="eyebrow">01 / ABOUT</p>
+          <h2>Practical problem-solving,<br><span>powered by data.</span></h2>
+          <div class="about-copy">
+            <p>I’m Alok, a Data Analyst with hands-on experience building data-driven applications and business
+              dashboards. My work brings together Python, SQL, Oracle Database, FastAPI and React.js.</p>
+            <p>In my current role, I independently developed two regulatory dashboards. I built the flow from weekly
+              Excel data ingestion into Oracle through Python, to API development and interactive dashboard views.</p>
+            <div class="about-note"><span class="note-mark">✳</span><span>My focus: making business data easier to
+                process, access, monitor and understand.</span></div>
+          </div>
+          <div class="hero-meta">
+            <div><strong>Python</strong><small>Data processing &amp; automation</small></div>
+            <div><strong>Oracle SQL</strong><small>Database integration</small></div>
+            <div><strong>React + FastAPI</strong><small>Full-stack dashboards</small></div>
+          </div>
+        </div>
+        <div class="skills-col" id="skills">
+          <p class="eyebrow">TOOLKIT</p>
+          <h2>Tools I work with</h2>
+          <p class="skills-intro">Technologies used across data workflows, database integration and application
+            development.</p>
+          <div class="skill-groups">
+            <article class="skill-card"><span class="skill-number">01</span>
+              <h3>Data &amp; Automation</h3>
+              <div class="pills"><span>Python</span><span>Pandas</span><span>Excel</span><span>OpenPyXL</span></div>
+            </article>
+            <article class="skill-card"><span class="skill-number">02</span>
+              <h3>Database &amp; APIs</h3>
+              <div class="pills"><span>Oracle Database</span><span>SQL</span><span>oracledb</span><span>FastAPI</span>
+              </div>
+            </article>
+            <article class="skill-card"><span class="skill-number">03</span>
+              <h3>Frontend &amp; BI</h3>
+              <div class="pills"><span>React.js</span><span>Power BI</span><span>Tableau</span><span>Data
+                  Visualization</span></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+        <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+          <p class="eyebrow">02 / SELECTED WORK</p>
+            <h2>Projects &amp; experience</h2>
+          </div>
+          <p>Real dashboards built to make operational data accessible and actionable. Click any screenshot to view it
+            full size.</p>
+        </div>
+        <article class="proj" data-proj>
+          <div class="proj-info">
+            <div class="project-tags"><span>PROFESSIONAL EXPERIENCE</span><span>FULL-STACK</span></div>
+            <h3>CES Regulatory Management &amp; Analytics Dashboard</h3>
+            <p class="project-intro">Two dashboards built for regulatory operations: a proposal reconciliation dashboard
+              and a DERC query management dashboard, covering 1,446 proposals, 47 DPRs and 101 regulator queries.</p>
+          </div>
+          <div class="proj-side">
+            <h4>What it does</h4>
+            <ul>
+              <li>Weekly Excel data ingestion into Oracle Database using Python, Pandas and <code>oracledb</code>.</li>
+              <li>Backend REST APIs with Python and FastAPI to serve database records.</li>
+              <li>React.js frontend with KPI cards, charts, filters, searchable tables and pagination.</li>
+              <li>Views for proposal approvals, financial metrics, pending queries and response timelines.</li>
+            </ul>
+            <div class="tech-line"><b>STACK</b><span>React.js · FastAPI · Python · Pandas · Oracle · SQL ·
+                oracledb</span></div>
+          </div>
+          <div class="viewer">
+            <div class="v-tabs"><button class="on" data-i="0">Overview</button><button class="" data-i="1">DPR
+                Listing</button><button class="" data-i="2">DERC Queries</button><button class=""
+                data-i="3">Reconciliation</button></div>
+            <div class="v-frame">
+              <div class="v-bar"><span>CES REGULATORY ANALYTICS</span><span>Click to enlarge ⤢</span></div>
+              <div class="v-imgs"><img class="on" src="assets/img/CES_Regulatory_Dashboard.jpg"
+                  alt="CES Regulatory Management &amp; Analytics Dashboard screenshot: Overview" loading="lazy"><img
+                  class="" src="assets/img/CES_Regulatory_DPR_Dashboard.jpg"
+                  alt="CES Regulatory Management &amp; Analytics Dashboard screenshot: DPR Listing" loading="lazy"><img
+                  class="" src="assets/img/CES_Regulatory_DERC_Dashboard.jpg"
+                  alt="CES Regulatory Management &amp; Analytics Dashboard screenshot: DERC Queries" loading="lazy"><img
+                  class="" src="assets/img/CES_Regulatory_Reconciliation_Dashboard.jpg"
+                  alt="CES Regulatory Management &amp; Analytics Dashboard screenshot: Reconciliation" loading="lazy">
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="proj" data-proj>
+          <div class="proj-info">
+            <div class="project-tags"><span>PROFESSIONAL EXPERIENCE</span><span>OPERATIONS DASHBOARD</span></div>
+            <h3>New Connection Tracking Dashboard</h3>
+            <p class="project-intro">A six-view dashboard that follows 2 lakh+ new connection applications from
+              acceptance to meter energisation, with service-level (SLA) tracking at every stage.</p>
+          </div>
+          <div class="proj-side">
+            <h4>What it does</h4>
+            <ul>
+              <li>Stage-wise views: commercial feasibility, O&M/SDO, technical feasibility, AMPS approval and
+                deficiency.</li>
+              <li>SLA health bars that flag breaches at each stage.</li>
+              <li>Ranked breakdown of deficiency reasons across 1.4 lakh cases.</li>
+              <li>Filters for date range, circle, division and planner group.</li>
+            </ul>
+            <div class="tech-line"><b>STACK</b><span>HTML · CSS · JavaScript · FastAPI (Python)</span></div>
+          </div>
+          <div class="viewer">
+            <div class="v-tabs"><button class="on" data-i="0">Main</button><button class=""
+                data-i="1">CF</button><button class="" data-i="2">O&amp;M · SDO</button><button class=""
+                data-i="3">TF</button><button class="" data-i="4">AMPS</button><button class=""
+                data-i="5">Deficiency</button></div>
+            <div class="v-frame">
+              <div class="v-bar"><span>NEW CONNECTION DASHBOARD</span><span>Click to enlarge ⤢</span></div>
+              <div class="v-imgs"><img class="on" src="assets/img/BRPL___Main_Dashboard.jpg"
+                  alt="New Connection Tracking Dashboard screenshot: Main" loading="lazy"><img class=""
+                  src="assets/img/BRPL___CF.jpg" alt="New Connection Tracking Dashboard screenshot: CF"
+                  loading="lazy"><img class="" src="assets/img/BRPL___O_M___SDO.jpg"
+                  alt="New Connection Tracking Dashboard screenshot: O&amp;M · SDO" loading="lazy"><img class=""
+                  src="assets/img/BRPL___TF.jpg" alt="New Connection Tracking Dashboard screenshot: TF"
+                  loading="lazy"><img class="" src="assets/img/BRPL___AMPS___Demand_Note.jpg"
+                  alt="New Connection Tracking Dashboard screenshot: AMPS" loading="lazy"><img class=""
+                  src="assets/img/BRPL___Deficiency___Cases_Under_Process.jpg"
+                  alt="New Connection Tracking Dashboard screenshot: Deficiency" loading="lazy"></div>
+            </div>
+          </div>
+        </article>
+        <article class="proj" data-proj>
+          <div class="proj-info">
+            <div class="project-tags"><span>PROFESSIONAL EXPERIENCE</span><span>BI REPORTING</span></div>
+            <h3>PMG Energy Analytics Suite (Tableau)</h3>
+            <p class="project-intro">A suite of 16 Tableau dashboards for power demand, supply, management reporting,
+              merit-order dispatch and battery storage, linked from one landing page.</p>
+          </div>
+          <div class="proj-side">
+            <h4>What it does</h4>
+            <ul>
+              <li>Demand and supply views with energy mix, price and over-/under-drawal.</li>
+              <li>Management dashboards and one-page summaries for quick review.</li>
+              <li>Real-time and historical merit-order dispatch heatmaps.</li>
+            </ul>
+            <div class="tech-line"><b>STACK</b><span>Tableau · Data visualization · Time-series analysis</span></div>
+          </div>
+          <div class="viewer">
+            <div class="v-frame">
+              <div class="v-bar"><span>PMG DASHBOARDS</span><span>Click to enlarge ⤢</span></div>
+              <div class="v-imgs"><img class="on" src="assets/img/PMG_Landing.jpg"
+                  alt="PMG Energy Analytics Suite (Tableau) screenshot: Landing page" loading="lazy"></div>
+            </div>
+          </div>
+        </article>
+        <article class="proj" data-proj>
+          <div class="proj-info">
+            <div class="project-tags"><span>PROFESSIONAL EXPERIENCE</span><span>DATA RELIABILITY</span></div>
+            <h3>Data Pipeline Health Monitors</h3>
+            <p class="project-intro">Monitoring dashboards that show whether data feeds behind the reports are updating
+              properly, so a stalled feed is spotted early.</p>
+          </div>
+          <div class="proj-side">
+            <h4>What it does</h4>
+            <ul>
+              <li>PMG Database Monitor: about 40 tables with last-updated time and LIVE, N-1 or DELAY status.</li>
+              <li>SCADA Data Monitor: source vs destination checks for each feed.</li>
+              <li>Table search and manual refresh.</li>
+            </ul>
+            <div class="tech-line"><b>STACK</b><span>Python · Web dashboard · Database monitoring</span></div>
+          </div>
+          <div class="viewer">
+            <div class="v-tabs"><button class="on" data-i="0">PMG Database Monitor</button><button class=""
+                data-i="1">SCADA Data Monitor</button></div>
+            <div class="v-frame">
+              <div class="v-bar"><span>DATA MONITORING</span><span>Click to enlarge ⤢</span></div>
+              <div class="v-imgs"><img class="on" src="assets/img/PMG_Database___Live___N_1_Status.jpg"
+                  alt="Data Pipeline Health Monitors screenshot: PMG Database Monitor" loading="lazy"><img class=""
+                  src="assets/img/SCADA_Data_Monitor.jpg"
+                  alt="Data Pipeline Health Monitors screenshot: SCADA Data Monitor" loading="lazy"></div>
+            </div>
+          </div>
+        </article>
+        <p class="shot-note">Screenshots are from internal dashboards built in my current role.</p>
+      </div>
+    </section>
+
+
+    <section class="section approach-section">
+      <div class="container">
+        <p class="eyebrow">03 / HOW I WORK</p>
+        <h2>From raw files to<br><span>useful interfaces.</span></h2>
+        <div class="flow">
+          <div class="flow-step"><span>01</span><b>Ingest</b><small>Excel files & source data</small></div><i>→</i>
+          <div class="flow-step"><span>02</span><b>Process</b><small>Python & Pandas</small></div><i>→</i>
+          <div class="flow-step"><span>03</span><b>Store</b><small>Oracle Database</small></div><i>→</i>
+          <div class="flow-step"><span>04</span><b>Serve</b><small>FastAPI endpoints</small></div><i>→</i>
+          <div class="flow-step"><span>05</span><b>Visualize</b><small>React.js dashboards</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">04 / CONTACT</p>
+          <h2>Let’s build something<br><span>useful with data.</span></h2>
+          <p class="contact-copy">Interested in data analytics, automation or dashboard development? Feel free to
+            connect.</p>
+        </div>
+        <div class="contact-card">
+          <div><small>EMAIL</small><a id="emailLink" href="mailto:alok.pal2606@gmail.com">alok.pal2606@gmail.com ↗</a>
+          </div>
+          <div><small>LINKEDIN</small><a id="linkedinLink" href="https://www.linkedin.com/in/alok-pal26" target="_blank"
+              rel="noreferrer">linkedin.com/in/alok-pal26 ↗</a></div>
+          <div><small>GITHUB</small><a href="https://github.com/alok2426" target="_blank" rel="noreferrer">Alok Pal
+              GitHub ↗</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container"><a class="brand" href="#home">Alok Pal<span>.</span></a><span>© <span id="year"></span> Alok
+        Pal.</span><a href="#home">Back to top ↑</a></div>
+  </footer>
+  <div class="lb" id="lb" hidden>
+    <div class="lb-top"><span id="lbCap"></span>
+      <div><button id="lbPrev" aria-label="Previous">←</button><button id="lbNext" aria-label="Next">→</button><button
+          id="lbClose" aria-label="Close">✕</button></div>
+    </div>
+    <div class="lb-scroll" id="lbScroll"><img id="lbImg" alt=""></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
