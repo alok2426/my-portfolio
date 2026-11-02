@@ -32,7 +32,6 @@ alok-pal-portfolio/
 ├── index.html        # Page content
 ├── styles.css        # Styling
 ├── script.js         # Mobile menu, project tabs, hero slideshow, image viewer
-├── README.md
 └── assets/
     └── img/          # Dashboard screenshots
 ```
