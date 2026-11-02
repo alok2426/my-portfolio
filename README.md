@@ -4,7 +4,7 @@ A responsive, single-page portfolio for **Alok Pal**, a Data Analyst and Full-St
 
 Built with plain HTML, CSS and JavaScript. There is no framework, build step or package installation.
 
-**Live site:** `https://alok2426.github.io/alok-pal-portfolio/` *(available after you enable GitHub Pages, see below)*
+**Live site:** `https://alok2426.github.io/alok-pal-portfolio/portfolio` *(available after you enable GitHub Pages, see below)*
 
 ## Features
 
